@@ -1,67 +1,72 @@
 <!doctype html>
 <html>
 <head>
-<title>HTML Me Something!</title>
+<title>National Parks Visited</title>
+<link rel="stylesheet" href="styles.css">	
 </head>
 
 <body>
 	
 		<header>
-		<h1>National parks</h1>
-			<h3>The Parks I've Visited</h3>
+		<h1 class="title">NATIONAL PARKS</h1>
+			<h3 class="subtitle">The Parks I've Visited</h3>
+			<hr>
 			<p>On this page I'll highlight some of the National Parks and National Monuments that I've visited</p>
-		</header>
-	
-		<ul>
+			<ul class="link">
 			<li><a href="#Yosemite">Yosemite National Park</a></li>
 			<li><a href="#Everglades">Evergaldes National Park</a></li>
 			<li><a href="#McHenry">Fort McHenry National Monument and Historic Shrine</a></li>
-		</ul>
+			</ul>
+		</header>
 	
-		<main>
+
+	
+<main>
 			
-		<article>
+		<article class="park_section">
 			<a name="Yosemite"></a>
-			<div><h2>Yosemite National Park</h2>
-			<p>I visited Yosemite back in 2010, and I have to say it's one of the most beatiful places I've been. I remember drving into the valley at night and sensing this huge white wall on either side of the road. It was the walls of the rock mountains that surround it. The moonlight made them look like pale imposing giants. We stopped the car in the middle of the road and look up in awe at a sight that I'll never forget. And guess what? That was just the beginning</p>
-			<p>Here's a brief description of the park from the National Park Service Website: </p>
-			<blockquote cite="https://www.nps.gov/yose/index.htm">
+			<div class="main_image">
+			<img class="pic" src="images/NP_Images_Yosemite.jpg" alt="Yosemite Valley">
+			</div>			
+			<div class="main_content"><h2 class="title">Yosemite National Park</h2>
+			<p class="content_text">I visited Yosemite back in 2010, and I have to say it's one of the most beatiful places I've been. I remember drving into the valley at night and sensing this huge white wall on either side of the road. It was the walls of the rock mountains that surround it. The moonlight made them look like pale imposing giants. We stopped the car in the middle of the road and look up in awe at a sight that I'll never forget. And guess what? That was just the beginning</p>
+			<p class="content_text">Here's a brief description of the park from the National Park Service Website: </p>
+			<blockquote id="citation" cite="https://www.nps.gov/yose/index.htm">
 			Not just a great valley, but a shrine to human foresight, the strength of granite, the power of glaciers, the persistence of life, and the tranquility of the High Sierra. First protected in 1864, Yosemite National Park is best known for its waterfalls, but within its nearly 1,200 square miles, you can find deep valleys, grand meadows, ancient giant sequoias, a vast wilderness area, and much more.
 			</blockquote>
-			<p>I would highly recommend visiting this park if you like hiking up mountain trails. For more information <a href="https://www.nps.gov/yose/index.htm" target="_blank">click here</a></p>
+			<p class="content_text">I would highly recommend visiting this park if you like hiking up mountain trails. For more information <a href="https://www.nps.gov/yose/index.htm" target="_blank">click here</a></p>
 			</div>
-			<figure>
-			<img src="images/NP_Images_Yosemite.jpg" alt="Yosemite Valley">
-			</figure>
+
 		</article>
 			
-		<article>
+		<article class="park_section">
 			<a name="Everglades"></a>
-			<div><h2>Everglades National Park</h2>
-			<p>This is the only National Park I've been to multiple times. Primarily because it's just an hour or so away from where I live. Unlike Yosemite, the scenery at this park is a little bit underwhelming. Depending on what area of the park you are visiting you might be able to see some wildlife – alligators are the most impressive. Besides that it's mostly sawgrass and the ocassional hammock. That doesn't necessarily mean that the park does not have a huge importance in the ecosystem of South Florida. It's been named a World Heritage Site, an International Biosphere Reserve, and a Wetland of International Importance. To read more about it <a href="https://www.nps.gov/ever/planyourvisit/index.htm" target="_blank">click here</a> </p>
-			
+			<div class="main_image">
+			<img class="pic" src="images/NP_Images_Everglades.jpg" alt="Yosemite Valley">
 			</div>
-			<figure>
-			<img src="images/NP_Images_Everglades.jpg" alt="Yosemite Valley">
-			</figure>
+			<div class="main_content"><h2 class="title">Everglades National Park</h2>
+			<p class="content_text">This is the only National Park I've been to multiple times. Primarily because it's just an hour or so away from where I live. Unlike Yosemite, the scenery at this park is a little bit underwhelming. Depending on what area of the park you are visiting you might be able to see some wildlife – alligators are the most impressive. Besides that it's mostly sawgrass and the ocassional hammock. That doesn't necessarily mean that the park does not have a huge importance in the ecosystem of South Florida. It's been named a World Heritage Site, an International Biosphere Reserve, and a Wetland of International Importance. To read more about it <a href="https://www.nps.gov/ever/planyourvisit/index.htm" target="_blank">click here</a> </p>
+			</div>
+			
+		</article>
+	
+			<article class="park_section">
+			<a name="McHenry"></a>
+			<div class="main_image">
+			<img class="pic" src="images/NP_Images_Ft_McHenry.jpg" alt="Yosemite Valley">
+			</div>
+			<div class="main_content"><h2 class="title">Fort McHenry National Monument and Historic Shrine</h2>
+			<p class="content_text">Fort McHenry is actually a National Monument and not a park. This <a href="https://www.nps.gov/parkhistory/online_books/portfolio/portfolio0b.htm" target="_blank">page</a> does a pretty good job of explaining the distiction between one and the other from the administrative perspective of the National Park Service. I visited Fort McHenry back in 2011 and I really enjoyed learning about it's historical relevance in the War of 1812 and how the "The Star-Spangled Banner" was written during one of the battles of the war. There's reenactments with actors dressed in period attire and all kinds of historical artifacts. To lear more about this monument <a href="https://www.nps.gov/fomc/index.htm" target="_blank">click here</a> </p>
+			</div>
+			
 		</article>
 			
-		<article>
-			<a name="McHenry"></a>
-			<div><h2>Fort McHenry National Monument and Historic Shrine</h2>
-			<p>Fort McHenry is actually a National Monument and not a park. This <a href="https://www.nps.gov/parkhistory/online_books/portfolio/portfolio0b.htm" target="_blank">page</a> does a pretty good job of explaining the distiction between one and the other from the administrative perspective of the National Park Service. I visited Fort McHenry back in 2011 and I really enjoyed learning about it's historical relevance in the War of 1812 and how the "The Star-Spangled Banner" was written during one of the battles of the war. There's reenactments with actors dressed in period attire and all kinds of historical artifacts. To lear more about this monument <a href="https://www.nps.gov/fomc/index.htm" target="_blank">click here</a> </p>
+	
 			
-			</div>
-			<figure>
-			<img src="images/NP_Images_Ft_McHenry.jpg" alt="Yosemite Valley">
-			</figure>
-		</article>		
-			
-		</main>
+</main>
 	
 		<footer>
-			<p>A Rau&#769;l Ma&#769;qruez Original &copy; 2018 </p>
-  			<p>Email me: <a href="mailto:elracu@gmail.com">elracu@gmail.com</a>.</p>
+			<p>A Rau&#769;l Ma&#769;qruez Original &copy; 2018 <br><a href="mailto:elracu@gmail.com">elracu@gmail.com</a></p>
 		</footer>
 		
 
